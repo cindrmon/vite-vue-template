@@ -4,7 +4,6 @@ import { computed, ref } from "vue"
 defineProps<{ msg: string }>()
 
 const store = useStore()
-const count2 = ref(store.getters.getCount)
 
 function add() {
 	store.dispatch("add")
@@ -22,7 +21,17 @@ const count = computed(() => {
 		Recommended IDE setup:
 		<a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
 		+
+        <a href="https://yarnpkg.com/">Yarn</a>
+        +
 		<a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
+        +
+        <a href="https://prettier.io/">Prettier</a>
+        +
+        <a href="https://eslint.org/">ESLint</a>
+        +
+        <a href="https://tailwindcss.com/">Tailwind CSS</a>
+        +
+        <a href="https://sass-lang.com/">SASS</a>
 	</p>
 
 	<p>See <code>README.md</code> for more information.</p>
