@@ -16,6 +16,7 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@types/node": "^16.11.12",
     "@vitejs/plugin-vue": "^1.9.0",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.3.0",
